@@ -21,11 +21,11 @@ const images = [
 ];
 
 const galleryEl = document.querySelector('#gallery');
-galleryEl.classList.add('gallery');
+galleryEl.classList.add('gallery_list');
 
 const makeGalleryContainer = ({ url, alt }) => {
   return `<li class="gallery-item">
-    <img src="${url}" alt="${alt}" class="img" height="250px">
+    <img src="${url}" alt="${alt}" class="img" height="250px" >
   </li>`;
 };
 
